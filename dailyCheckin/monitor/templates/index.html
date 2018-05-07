@@ -1,0 +1,9 @@
+{% include partials/header.html %}
+
+Hello {{ user }}
+{% for checkin in DailyCheckin %}
+    <li><a >{{ checkin.user_id }}</a>></li>>
+    <li><a>{{ checkin.start }}</a>></li>>
+{% endfor %}
+
+{% include 'partials/footer.html' %}
