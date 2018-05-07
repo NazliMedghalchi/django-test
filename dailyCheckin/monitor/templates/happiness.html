@@ -1,0 +1,23 @@
+{% include 'partials/header.html' %}
+
+<br>{{ happiness.user_id }}</br>
+<a href="/happiness"><< Go Back</a>
+<title>Hello</title>
+<div>
+    <form action="post", title="Submit Happiness level">
+        <label>User Id:</label>
+            <input type="text", title="user_id", placeholder="user_id">
+
+        <label>User Name:</label>
+            <input type="text", title="user_name", placeholder="name">
+
+        <label>Todays' Happiness Level:</label>
+            <input type="text", title="level", placeholder="level">
+
+        <button><a>Submit</a></button>
+    </form>
+
+</div>
+
+
+{% include 'partials/footer.html' %}
