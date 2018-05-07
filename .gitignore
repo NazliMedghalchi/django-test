@@ -34,3 +34,7 @@ Temporary Items
 # virtualenv
 venv
 .venv
+
+*.pyc
+.idea
+.idea/
